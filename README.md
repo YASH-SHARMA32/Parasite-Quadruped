@@ -105,3 +105,34 @@ void executeOmniTrotGait() {
 - [ ] 🎯 **Calibration:** Center all 5 hardware servos precisely at 90 degrees before final mechanical assembly.
 - [ ] ⚡ **Current Separation:** Verify Battery 1 supplies a clean 5V to the ESP32/OLED, while Battery 2 isolates the servo spikes.
 - [ ] 🧪 **Sensor Test:** Verify the ultrasonic threshold interrupts cleanly switch states exactly at the 20cm mark.
+
+
+
+
+---
+# Parasite-Quadruped
+A 9-DoF autonomous quadrupedal platform optimized for Kinematic Personality.
+
+## 🎥 Project Demonstration
+[**Watch the Parasite in action on LinkedIn!**](https://www.linkedin.com/feed/update/urn:li:activity:7469809030765674496/)
+
+## 🛠 Engineering Overview
+- **Microcontroller:** ESP32-WROOM (Dual-Core)
+- **Kinematics:** 9-DoF Custom Inverse Kinematics (IK)
+- **Firmware:** Non-blocking C++/Arduino state machine
+- **Capabilities:** Autonomous navigation, reactive movement, personality-driven gait patterns.
+
+## 📸 Build Gallery
+A visual chronicle of the Parasite's evolution from structural skeleton to autonomous locomotion.
+
+| Assembly Phase | Electronics & Wiring | Calibration & Testing |
+| :--- | :--- | :--- |
+| ![Build](assets/IMG-20260530-WA0006.jpg) | ![Wiring](assets/IMG-20260530-WA0033(1).jpg) | ![Test](assets/IMG-20260530-WA0061.jpg) |
+
+*(Note: The full archive of all 30+ build photos is available in the [/assets](/assets) directory.)*
+
+## 📂 Source Code
+The firmware logic is located in the [/code](/code) directory.
+
+---
+*Built with ❤️ for chaos and companionship.*
