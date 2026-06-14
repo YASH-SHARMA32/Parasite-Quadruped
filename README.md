@@ -132,7 +132,7 @@ A visual chronicle of the Parasite's evolution from structural skeleton to auton
 *(Note: The full archive of all 30+ build photos is available in the [/assets](/assets) directory.)*
 
 ## 📂 Source Code
-The firmware logic is located in the [/code](/code) directory.
+The firmware logic is located in the [/code](https://github.com/YASH-SHARMA32/Parasite-Quadruped/blob/main/parasite_code_v2.1.ino) directory.
 
 ---
 *Built with ❤️ for chaos and companionship.*
